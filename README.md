@@ -1,4 +1,4 @@
-## TWRP Device Tree for Samsung Galaxy A54 5G
+## TWRP Device Tree for Samsung Galaxy A53 5G
 
 The Galaxy A53 5G (codenamed "_a53x_") is a mid-range smartphone from Samsung.
 
