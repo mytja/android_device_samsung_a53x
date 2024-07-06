@@ -1,9 +1,11 @@
 exynos-chipid_v2.ko
 exynos-reboot.ko
-exynos_tty.ko
+sec_debug_base_early.ko
 exynos_mct.ko
+exynos_tty.ko
 clk_exynos.ko
 i2c-exynos5.ko
+sec_debug_mode.ko
 ems.ko
 zsmalloc.ko
 lzo.ko
@@ -91,8 +93,6 @@ samsung-secure-iova.ko
 exynos-drm.ko
 mcd-panel-samsung-drv.ko
 mcd-panel-samsung-helper.ko
-mcd-panel-s6e3fc3.ko
-mcd-panel.ko
 mali_kbase.ko
 zram.ko
 scsc_log_collection.ko
@@ -232,14 +232,14 @@ sec_class.ko
 sec_bootstat.ko
 sec_argos.ko
 pmic_class.ko
+mcd-panel-s6e3fc3_a53x.ko
 dev_ril_bridge.ko
+mcd-panel.ko
 sec_vibrator.ko
 sec_debug.ko
-sec_debug_base_early.ko
 sec_debug_test.ko
 sec_debug_dprm.ko
 sec_debug_dprt.ko
-sec_debug_mode.ko
 sec_debug_extra_info.ko
 sec_debug_hw_param.ko
 sec_debug_reset_reason.ko
@@ -249,6 +249,7 @@ sec_debug_softdog.ko
 sec_debug_sched_info.ko
 sec_debug_stacktrace.ko
 sec_debug_hardlockup_info.ko
+sec_debug_sched_report.ko
 dropdump.ko
 common_muic.ko
 sb-core.ko
@@ -278,6 +279,7 @@ sm5714_fuelgauge.ko
 muic_sm5714.ko
 sec-direct-charger.ko
 sec_pd.ko
+sb_wireless.ko
 sec-battery.ko
 shub.ko
 sensor_core.ko
