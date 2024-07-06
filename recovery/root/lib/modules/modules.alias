@@ -42,6 +42,8 @@ alias of:N*T*Carm,mali-midgard mali_kbase
 alias of:N*T*Carm,mali-midgardC* mali_kbase
 alias of:N*T*Carm,mali-bifrost mali_kbase
 alias of:N*T*Carm,mali-bifrostC* mali_kbase
+alias of:N*T*Csamsung,scsc_bt_qos scsc_bt
+alias of:N*T*Csamsung,scsc_bt_qosC* scsc_bt
 alias platform:samsung-slif snd_soc_samsung_slif
 alias of:N*T*Csamsung,slif snd_soc_samsung_slif
 alias of:N*T*Csamsung,slifC* snd_soc_samsung_slif
@@ -90,8 +92,11 @@ alias of:N*T*Csamsung,s5e8825-v2-wdt s3c2410_wdt
 alias of:N*T*Csamsung,s5e8825-v2-wdtC* s3c2410_wdt
 alias platform:s3c2410-wdt s3c2410_wdt
 alias i2c:sm5451-charger sm5451_charger
+alias i2c:sm5451-charger-sub sm5451_charger
 alias of:N*T*Csiliconmitus,sm5451 sm5451_charger
 alias of:N*T*Csiliconmitus,sm5451C* sm5451_charger
+alias of:N*T*Csiliconmitus,sm5451-sub sm5451_charger
+alias of:N*T*Csiliconmitus,sm5451-subC* sm5451_charger
 alias hid:b0003g*v0000050Dp00003201 hid_belkin
 alias hid:b0003g*v00001020p00000006 hid_belkin
 alias platform:exynos-uart exynos_tty
@@ -452,8 +457,8 @@ alias of:N*T*Csamsung,exynos-tmu-v2C* exynos_thermal
 alias hid:b0003g*v00001A34p00000802 hid_axff
 alias hid:b0003g*v00001A34p0000F705 hid_axff
 alias usbfunc:ss_mon usb_f_ss_mon_gadget
-alias of:N*T*Csamsung,usb-notifier usb_notifier
-alias of:N*T*Csamsung,usb-notifierC* usb_notifier
+alias of:N*T*Csamsung,origin-usb-notifier usb_notifier
+alias of:N*T*Csamsung,origin-usb-notifierC* usb_notifier
 alias usbfunc:conn_gadget usb_f_conn_gadget
 alias usbfunc:dm1 usb_f_dm1
 alias lzo-rle lzo_rle
@@ -658,6 +663,9 @@ alias usb:v0BDBp*d*dc*dsc*dp*ic02isc0Eip00in* cdc_mbim
 alias usb:v12D1p*d*dc*dsc*dp*ic02isc0Eip00in* cdc_mbim
 alias usb:v03F0pA31Dd*dc*dsc*dp*ic02isc0Eip00in* cdc_mbim
 alias usb:v1BC7p1041d*dc*dsc*dp*ic02isc0Eip00in* cdc_mbim
+alias usb:v1BC7p1061d*dc*dsc*dp*ic02isc0Eip00in* cdc_mbim
+alias usb:v1BC7p1071d*dc*dsc*dp*ic02isc0Eip00in* cdc_mbim
+alias usb:v1BC7p1081d*dc*dsc*dp*ic02isc0Eip00in* cdc_mbim
 alias usb:v*p*d*dc*dsc*dp*ic02isc0Eip00in* cdc_mbim
 alias hid:b0003g*v00000566p00003004 hid_monterey
 alias of:N*T*Csamsung,exynos-dsufreq exynos_dsufreq
@@ -734,6 +742,7 @@ alias hid:b0003g*v000006A3p00000CCD hid_saitek
 alias hid:b0003g*v000006A3p00000CFA hid_saitek
 alias hid:b0003g*v00000738p00001709 hid_saitek
 alias hid:b0003g*v000006A3p00000CD0 hid_saitek
+alias hid:b0003g*v00000738p00001713 hid_saitek
 alias i2c:sec-nfc nfc_sec
 alias of:N*T*Csamsung,exynos-is-cis-hi1336 is_cis_hi1336
 alias of:N*T*Csamsung,exynos-is-cis-hi1336C* is_cis_hi1336
