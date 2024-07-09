@@ -56,7 +56,7 @@ git clone https://github.com/mytja/android_device_samsung_a53x.git -b main devic
 ```sh
 export ALLOW_MISSING_DEPENDENCIES=true
 . build/envsetup.sh
-lunch twrp_a54x-eng
+lunch twrp_a53x-eng
 mka recoveryimage
 ```
 
