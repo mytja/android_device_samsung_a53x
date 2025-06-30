@@ -38,4 +38,4 @@ PRODUCT_ENFORCE_RRO_TARGETS += *
 
 # WiFi
 PRODUCT_PACKAGES += \
-    WifiOverlayA25X
+    WifiOverlayA53X
