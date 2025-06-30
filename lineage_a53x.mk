@@ -26,6 +26,9 @@ $(call inherit-product, device/samsung/a53x/device.mk)
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+## UDFPS
+TARGET_HAS_UDFPS := true
+
 ## Inherit some common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
