@@ -1,5 +1,5 @@
 #
-# Copyright (C) The LineageOS Project
+# Copyright (C) The PixelOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -29,12 +29,12 @@ TARGET_SCREEN_WIDTH := 1080
 ## UDFPS
 TARGET_HAS_UDFPS := true
 
-## Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+## Inherit some common PixelOS stuff
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 ## Device identifier, this must come after all inclusions
 PRODUCT_DEVICE := a53x
-PRODUCT_NAME := lineage_a53x
+PRODUCT_NAME := aosp_a53x
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A536
 PRODUCT_MANUFACTURER := samsung

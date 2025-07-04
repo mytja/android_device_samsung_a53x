@@ -1,5 +1,5 @@
 #
-# Copyright (C) The LineageOS Project
+# Copyright (C) The PixelOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_a53x.mk
+    $(LOCAL_DIR)/aosp_a53x.mk
