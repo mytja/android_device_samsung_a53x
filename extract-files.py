@@ -44,7 +44,7 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libshim_crypto.so'),
     'vendor/lib64/libexynoscamera3.so': blob_fixup()
         .add_needed('libshim_camera.so'),
-} # fmt: skip
+}  # fmt: skip
 
 module = ExtractUtilsModule(
     'a53x',

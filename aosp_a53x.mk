@@ -41,7 +41,7 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_SHIPPING_API_LEVEL := 31
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="a53xnaxx-user 15 AP3A.240905.015.A2 A536BXXSFFYEA release-keys" \
-    BuildFingerprint=samsung/a53xnaxx/essi:15/AP3A.240905.015.A2/A536BXXSFFYEA:user/release-keys \
+    BuildDesc="a53xnaxx-user 15 AP3A.240905.015.A2 A536BXXSGFYG1 release-keys" \
+    BuildFingerprint=samsung/a53xnaxx/essi:15/AP3A.240905.015.A2/A536BXXSGFYG1:user/release-keys \
     DeviceProduct=a53xnaxx \
     SystemName=a53xnaxx

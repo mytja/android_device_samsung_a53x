@@ -38,5 +38,5 @@ on early-init && property:ro.boot.em.model=SM-A536E
     mount none /vendor/tee/SM-A536E /vendor/tee bind
 
 # Restart just to be safe.
-on post-fs-data
+on boot
     restart audioserver
