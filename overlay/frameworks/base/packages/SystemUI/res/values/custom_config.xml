@@ -16,5 +16,5 @@
 
 <resources>
     <!-- Whether to enable framework dimming for UDFPS -->
-    <bool name="config_udfpsFrameworkDimming">true</bool>
+    <bool name="config_udfpsFrameworkDimming">false</bool>
 </resources>
